@@ -16,6 +16,8 @@
     transition: top 0.1s ease;
     background-size: cover;
     cursor: crosshair;
+    background-image: url('./avocado.png');
+    background-repeat: no-repeat; 
 }
 
 .imgYes {

@@ -1,5 +1,4 @@
 import React from 'react';
-import avocado from './avocado.png';
 import './Helper.css';
 export default class Helper extends React.Component {
 
@@ -11,8 +10,8 @@ export default class Helper extends React.Component {
             test="";
         return (
             <div className="help">
-                <div className={`imgx ${test}`} style={{backgroundImage: `url(${avocado})`}} onClick={this.props.onHit}>
-                    
+                <div className={`imgx ${test}`} onClick={this.props.onHit}>
+
                 </div>
             </div>
         );
