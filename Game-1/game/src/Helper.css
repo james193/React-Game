@@ -1,0 +1,25 @@
+.help {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    margin: 30px;
+    border-bottom: 2px solid black;
+}
+
+.imgx {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 120px;
+    transition: top 0.1s ease;
+    background-size: cover;
+    cursor: crosshair;
+    background-image: url('./avocado.png');
+    background-repeat: no-repeat; 
+}
+
+.imgYes {
+    top: 0;
+}
